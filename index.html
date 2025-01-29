@@ -2,67 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
-    <title>Mummy Domains - Premium Domains for Sale</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Domains for Sale</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #ff9933 33%, #ffffff 34%, #ffffff 66%, #138808 67%);
             text-align: center;
-            color: #000;
+            background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #ffdde1, #fc6076);
+            background-size: 400% 400%;
+            animation: gradientMove 10s ease infinite;
             padding: 20px;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
         }
         h1 {
-            font-size: 32px;
+            color: #fff;
+            margin-bottom: 20px;
+            animation: blink 1.5s infinite;
         }
-        .domain-list {
-            list-style: none;
-            padding: 0;
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            max-width: 900px;
+            margin: auto;
         }
-        .domain-list li {
-            background: rgba(0, 0, 0, 0.1);
-            margin: 5px 0;
+        .column {
+            width: 50%;
+        }
+        .domain-item {
+            background: white;
             padding: 10px;
-            border-radius: 5px;
-            font-size: 18px;
-            font-weight: bold;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
         }
-        .contact {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-        .contact a {
-            color: #0000ff;
+        .domain-item a {
             text-decoration: none;
+            color: #007bff;
             font-weight: bold;
+            display: block;
+            padding: 10px;
+        }
+        .domain-item:hover {
+            background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+            color: white;
+        }
+        .domain-item:hover a {
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .column {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
+    <h1> We got these Domains for you !</h1>
     <div class="container">
-        <h1>🔥 Premium Domains for FREE.. 🔥</h1>
-        <ul class="domain-list">
-            <li>www.vizhinjamportind.com</li>
-            <li>www.vizhinjamport.info</li>
-             <li>www.mytrivandrum.in</li>
-            <li>www.mytrivandrum.com</li>
-            <li>www.luluitpark.in</li>
-            <li>www.luluitpark.com</li>
-            <li>www.xylemcity.in</li>
-            <li>www.xylemcity.com</li>
-            <li>www.keralahub.in</li>
-            <li>www.verifyoriginals.com</li>
-            <li>www.unfake.org</li>
-            <li>www.mummydomains.com</li>
-        </ul>
+        <!-- Left Column -->
+        <div class="column">
+            <div class="domain-item"><a href="https://www.poojabasket.com">poojabasket.com</a></div>
+            <div class="domain-item"><a href="https://www.mytrivandrum.com">mytrivandrum.com</a></div>
+	    <div class="domain-item"><a href="https://www.technopark.it.com">technopark.it.com</a></div>
+	    <div class="domain-item"><a href="https://www.luluitpark.com">luluitpark.com</a></div>
+	    <div class="domain-item"><a href="https://www.verifyoriginals.com">verifyoriginals.com</a></div>
+	    <div class="domain-item"><a href="https://www.aaINDIA.com">aaINDIA.ORG</a></div>
+	    <div class="domain-item"><a href="https://www.CERT-INDIA.ORG">CERT-INDIA.ORG</a></div>
+	    <div class="domain-item"><a href="https://www.xylemcity.com">xylemcity.com</a></div>
+	    <div class="domain-item"><a href="https://www.vizhinjamportind.com">vizhinjamportind.com</a></div>
+           </div>
+        <!-- Right Column -->
+        <div class="column">
+            <div class="domain-item"><a href="https://www.mypoojahub.com">mypoojahub.com</a></div>
+            <div class="domain-item"><a href="https://www.mytrivandrum.in">mytrivandrum.in</a></div>
+	    <div class="domain-item"><a href="https://www.keralahub.in">keralahub.in</a></div>
+	    <div class="domain-item"><a href="https://www.luluitpark.in">luluitpark.in</a></div>
+	    <div class="domain-item"><a href="https://www.unfake.org">unfake.org</a></div>
+	    <div class="domain-item"><a href="https://www.anINDIA.com">anINDIA.ORG</a></div>
+	    <div class="domain-item"><a href="https://www.APN-INDIA.ORG">APN-INDIA.ORG</a></div>
+	    <div class="domain-item"><a href="https://www.xylemcity.in">xylemcity.in</a></div>
+	    <div class="domain-item"><a href="https://www.vizhinjamport.info">vizhinjamport.info</a></div>           
+        </div>
+    </div>
+</body>
+</html>
         <p class="contact">Interested? Contact us at <a href="mailto:mummydomains@gmail.com">mummydomains@gmail.com</a></p>
         <p class="contact">WhatsApp: <a href="https://wa.me/+91 83019 51835" target="_blank">+91 83019 51835</a></p>
     </div>
